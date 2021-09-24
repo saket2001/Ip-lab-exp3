@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- font awesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <nav class="container col-md-2 nav nav-expand-md navbar-dark flex-column bg-primary text-white p-3">
+                <div class="mb-4">
+                    <h1>
+                        John Doe
+                        <h5>Thus, Sept 16th 2021</h5>
+                    </h1>
+                </div>
+                <ul class="navbar-nav">
+                    <h4 class="nav-item">
+                        <a href="#" class="nav-link active">
+                            <i class="fas fa-home"></i>
+                            Dashboard
+                        </a>
+                    </h4>
+                    <h4 class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-user"></i>
+                            Users
+                        </a>
+                    </h4>
+                    <h4 class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-file-alt"></i>
+                            Ads
+                        </a>
+                    </h4>
+                </ul>
+                <div class="mt-4 align-self-baseline">
+                    <button class="btn btn-lg btn-outline-light">Logout</button>
+                </div>
+            </nav>
+            <div class="container-fluid col-md-10 bg-light py-2">
+                <!-- welcome card -->
+                <div class="card my-2 shadow-sm">
+                    <div class="card-body">
+                        <h2 class="card-title">
+                            Welcome Back, Admin
+                        </h2>
+                        <p class="card-text fw-light text-muted">Here's what happening with your site</p>
+                    </div>
+                </div>
+
+                <!-- data info card -->
+                <div class="card my-3 shadow-sm">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card-body text-center">
+                                <h1 class="card-title">20</h1>
+                                <h5 class="card-text text-muted">New Users</h5>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-body text-center">
+                                <h1 class="card-title">5</h1>
+                                <h5 class="card-text text-muted">New Ads</h5>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-body text-center">
+                                <h1 class="card-title">34</h1>
+                                <h5 class="card-text text-muted">Total Users</h5>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-body text-center">
+                                <h1 class="card-title">51</h1>
+                                <h5 class="card-text text-muted">Total Ads</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- new ads and new users card  -->
+                <div class="my-3">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <h4 class="card-title">New and Unverified Users</h4>
+                                    <table class="table border-success table-light table-hover">
+                                        <thead class="bg-primary text-white">
+                                            <tr>
+                                                <th>Sr no</th>
+                                                <th>ID</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>201391012</td>
+                                                <td>
+                                                    <button class="btn btn-outline-primary" type="button">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>4045929112</td>
+                                                <td>
+                                                    <button class="btn btn-outline-primary" type="button">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>39401021</td>
+                                                <td>
+                                                    <button class="btn btn-outline-primary" type="button">View</button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <h4 class="card-title">New and Unverified Ads</h4>
+                                    <table class="table border-success table-light table-hover">
+                                        <thead class="bg-primary text-white">
+                                            <tr>
+                                                <th>Sr no</th>
+                                                <th>ID</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>201391012</td>
+                                                <td>
+                                                    <button class="btn btn-outline-primary" type="button">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>4045929112</td>
+                                                <td>
+                                                    <button class="btn btn-outline-primary" type="button">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>39401021</td>
+                                                <td>
+                                                    <button class="btn btn-outline-primary" type="button">View</button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
